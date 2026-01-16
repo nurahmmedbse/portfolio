@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #111;
+    padding: 15px 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* Main container */
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #00bcd4;
+    margin-top: 0;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+/* Project cards */
+.project {
+    border-left: 5px solid #00bcd4;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.project:hover {
+    background-color: #f0fbfd;
+    transition: 0.3s;
+}
+/* Contact page styling */
+section h3 {
+    margin-top: 25px;
+    color: #00bcd4;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
