@@ -89,3 +89,12 @@ footer {
   color: #94a3b8;
   margin-top: 40px;
 }
+
+.card h3 {
+  color: #bfdbfe;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #c7d2fe;
+}
